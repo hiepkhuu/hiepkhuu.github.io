@@ -3267,11 +3267,11 @@ input, select, textarea {
 
 /* Wrapper */
 	section.wrapper{
-		width: 100% !important;
+		/* width: 100% !important; */
 	}
 	.wrapper {
 		position: relative;
-		width: 100% !important;
+		/* width: 100% !important; */
 	}
 
 		.wrapper > .inner {
