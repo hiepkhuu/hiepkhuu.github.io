@@ -22,11 +22,19 @@
 
 		const $slider = document.getElementById('slider');
 		const $toggle = document.getElementById('toggle');
+		// const $button = document.getElementsByClassName('fa-chevron-left')
 
 		$toggle.addEventListener('click', function() {
     const isOpen = $slider.classList.contains('slide-in');
+		// const isWhat = $slider.classList.container('chevron-left');
 
     $slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
+		$toggle.setAttribute('class', isOpen ? 'chevron-right' : 'chevron-left')
+		// const isLeft = $fas.classList.contains('fa-chevron-left');
+
+		$slider
+
+		$
 
 		});
 

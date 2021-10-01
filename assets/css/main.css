@@ -26,13 +26,13 @@ body::-webkit-scrollbar-thumb {
 #slider {
 	display: flex;
 	flex-direction: row;
-
+	font-size: 20px;
 	position: absolute;
 	right: -55%;
-	width: 60%;
-	height: 50%;
+	width: 59%;
+	height: 70%;
 	background: rgb(44, 117, 139);
-
+	padding-top: 0px;
 	border-radius:1em;
 	background: #478b99;
 	transform: translateX(-100%);
@@ -45,7 +45,7 @@ body::-webkit-scrollbar-thumb {
 	top: 0px;
 	left: 0px;
 	height: 100%;
-	width: 6em;
+	width: 3em;
 	border-radius:1em;
 	opacity: 0.5;
 	border: none !important;
@@ -58,6 +58,8 @@ body::-webkit-scrollbar-thumb {
 #toggle i {
 	font-size: 25px;
 }
+
+
 #slider div{
 	padding-left: 2em;
 }
@@ -68,8 +70,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 .slide-out {
+	margin-top: 0px;
 	animation: slide-out 0.5s forwards;
 	-webkit-animation: slide-out 0.5s forwards;
+}
+
+.chevron-left{
+
+}
+
+.chevron-right{
+	transform: rotate(180deg);
 }
 
 @keyframes slide-in {
@@ -128,6 +139,11 @@ body::-webkit-scrollbar-thumb {
 .details{
 	width: 60%;
 	padding-left: 2em;
+}
+
+.details p{
+	font-size: 22px !important;
+	padding: 0px !important;
 }
 
 /* .inner{
@@ -275,7 +291,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		/* color: rgba(255, 255, 255, 0.55); */
 		color: white !important;
-		font-family: 'Roboto', sans-serif !important;
+		font-family: 'Consolas', sans-serif !important;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -3992,17 +4008,21 @@ input, select, textarea {
 			#sidebar nav a:before {
 				/* background: #3c2c62; */
 				/* background: #DAB692; */
-				background: #c66668
+				/* background: #c66668; */
+
+
+
+				background: #2e3f4e;
 
 
 			}
 
 			/*look*/
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #74a6df,  #11b4c0);
-				background-image: -webkit-linear-gradient(to right, #74a6df,  #11b4c0);
-				background-image: -ms-linear-gradient(to right, #74a6df, #11b4c0);
-				background-image: linear-gradient(to right, #74a6df, #11b4c0);
+				background-image: -moz-linear-gradient(to right,  #c66668,  #11b4c0);
+				background-image: -webkit-linear-gradient(to right,  #c66668,  #11b4c0);
+				background-image: -ms-linear-gradient(to right,  #c66668, #11b4c0);
+				background-image: linear-gradient(to right,  #c66668, #11b4c0);
 				/* background-image: -moz-linear-gradient(to right, #DAB692, #E8DFE0);
 				background-image: -webkit-linear-gradient(to right, #DAB692, #E8DFE0);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
