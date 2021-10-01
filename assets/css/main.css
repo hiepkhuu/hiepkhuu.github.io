@@ -141,6 +141,19 @@ input, select, textarea {
 			min-width: 320px;
 		}
 
+		.spotlights > section > .image:before {
+			width: 40% !important;
+		}
+
+		.image.one,
+		.image.two,
+		.image.three {
+
+			width: 80% !important;
+			height: auto;
+
+		}
+
 	}
 
 	html {
@@ -193,6 +206,8 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+
+
 
 		}
 
@@ -293,6 +308,7 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 736px) {
+
 
 		h1 {
 			font-size: 2em;
@@ -1119,6 +1135,14 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+			.image.one,
+			.image.two,
+			.image.three {
+
+				width: 80% !important;
+
+
+			}
 
 			.row {
 				display: flex;
@@ -1891,7 +1915,7 @@ input, select, textarea {
 		transition: border-color 0.2s ease;
 		background-color: transparent;
 		border: solid 1px !important;
-		border-color: rgba(255, 255, 255, 0.15) !important;
+		border-color: rgba(255, 255, 255, 0.5) !important;
 		border-radius: 3em;
 		color: #ffffff !important;
 		cursor: pointer;
@@ -1908,6 +1932,10 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+	}
+
+	.button.scrolly{
+		margin-left: 5.5em;
 	}
 
 		input[type="submit"]:after,
@@ -2620,21 +2648,31 @@ input, select, textarea {
 
 /* Image */
 
+/* .image.one{
+
+} */
+
 	.image {
 		border-radius: 0.25em;
 		border: 0;
 		display: inline-block;
 		position: relative;
+		object-fit: contain !important;
+		min-height: auto;
+		width: 100% !important;
+
 	}
 
 		.image img {
 			border-radius: 0.25em;
 			display: block;
 
+
+
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+		width: 40%;
 		}
 
 			.image.left img, .image.right img {
@@ -2661,6 +2699,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				/* height: auto; */
 			}
 
 		.image.main {
@@ -3067,19 +3106,22 @@ input, select, textarea {
 
 		.spotlights > section > .image {
 			background-position: center center;
-			background-size: cover;
+			background-size:cover;
 			border-radius: .5em;
 			margin: 1em;
 			display: block;
 			position: relative;
 			width: 50em;
-			height: 16em;
+			height: auto;
 			box-shadow: 0px 0px 10px 1px rgba(49, 36, 80, 0.9);
 		}
 
 			.spotlights > section > .image img {
 				border-radius: 0;
 				display: block;
+
+
+
 
 			}
 
@@ -3190,8 +3232,9 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlights > section > .image {
-				height: 50vh;
-				min-height: 15em;
+				/* height: 50vh;
+				min-height: 15em; */
+				object-fit: contain !important;
 			}
 
 			.spotlights > section > .content {
@@ -3342,7 +3385,7 @@ input, select, textarea {
 			/* background-color: #b74e91; */
 			/* background-color: #DAB692 */
 			background-color: #e5b8b2
-			
+
 
 		}
 
@@ -3616,6 +3659,7 @@ input, select, textarea {
 		/* background: #8D9B6A; */
 		/* background: #1d8991; */
 		background: #17213b;
+		background: #24313d;
 
 		cursor: default;
 		height: 100vh;
@@ -3863,10 +3907,10 @@ input, select, textarea {
 
 			/*look*/
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #0f2461,  #11b4c0);
-				background-image: -webkit-linear-gradient(to right, #0f2461,  #11b4c0);
-				background-image: -ms-linear-gradient(to right, #0f2461,  #11b4c0);
-				background-image: linear-gradient(to right, #0f2461, #11b4c0);
+				background-image: -moz-linear-gradient(to right, #153183,  #11b4c0);
+				background-image: -webkit-linear-gradient(to right, #153183,  #11b4c0);
+				background-image: -ms-linear-gradient(to right, #153183,  #11b4c0);
+				background-image: linear-gradient(to right, #153183, #11b4c0);
 				/* background-image: -moz-linear-gradient(to right, #DAB692, #E8DFE0);
 				background-image: -webkit-linear-gradient(to right, #DAB692, #E8DFE0);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
