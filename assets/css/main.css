@@ -6,6 +6,89 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 /*MY CSS*/
+
+body{
+	overflow-x: hidden !important;
+
+}
+body::-webkit-scrollbar {
+  width: .4em;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: rgb(44, 117, 139);        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(228, 185, 46);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  /* border: 3px solid rgb(44, 117, 139); creates padding around scroll thumb */
+}
+
+#slider {
+	display: flex;
+	flex-direction: row;
+
+	position: absolute;
+	right: -55%;
+	width: 60%;
+	height: 50%;
+	background: rgb(44, 117, 139);
+
+	border-radius:1em;
+	background: #478b99;
+	transform: translateX(-100%);
+	-webkit-transform: translateX(-100%);
+	padding: 1em;
+}
+
+#toggle{
+	position: absolute !important;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 6em;
+	border-radius:1em;
+	opacity: 0.5;
+	border: none !important;
+}
+
+#toggle:hover{
+	border-radius: 1em !important
+}
+
+#toggle i {
+	font-size: 25px;
+}
+#slider div{
+	padding-left: 2em;
+}
+
+.slide-in {
+	animation: slide-in 0.5s forwards;
+	-webkit-animation: slide-in 0.5s forwards;
+}
+
+.slide-out {
+	animation: slide-out 0.5s forwards;
+	-webkit-animation: slide-out 0.5s forwards;
+}
+
+@keyframes slide-in {
+	100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+	100% { -webkit-transform: translateX(0%); }
+}
+
+@keyframes slide-out {
+	0% { transform: translateX(0%); }
+	100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slide-out {
+	0% { -webkit-transform: translateX(0%); }
+	100% { -webkit-transform: translateX(-100%); }
+}
 .inner span{
 	font-size: 16px;
 }
@@ -14,7 +97,11 @@
 	width: 100% !important
 }
 .inner h1{
-	font-size: 30px;
+	font-size: 35px;
+}
+
+.inner h3{
+	font-size: 25px;
 }
 .inner p{
 	font-size: 16px !important;
@@ -33,13 +120,14 @@
 .prof-img{
 	background-image: url('/images/jobsearchphoto-hiep-PhotoRoom\ \(2\).png');
 	background-size: cover;
-	width: 15em;
-	height: 15em;
+	width: 18em;
+	height: 18em;
 	background-color: white;
 	border-radius: 50%
 }
 .details{
 	width: 60%;
+	padding-left: 2em;
 }
 
 /* .inner{
@@ -47,7 +135,7 @@
 } */
 
 .inner strong{
-
+ color: rgb(252, 204, 49)
 }
 
 .features li{
@@ -142,7 +230,7 @@ input, select, textarea {
 		}
 
 		.spotlights > section > .image:before {
-			width: 40% !important;
+			width: 80% !important;
 		}
 
 		.image.one,
@@ -187,7 +275,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		/* color: rgba(255, 255, 255, 0.55); */
 		color: white !important;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: 'Roboto', sans-serif !important;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -1935,7 +2023,7 @@ input, select, textarea {
 	}
 
 	.button.scrolly{
-		margin-left: 5.5em;
+		margin: 4em 8em;
 	}
 
 		input[type="submit"]:after,
@@ -3247,7 +3335,7 @@ input, select, textarea {
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
-		overflow-x: auto;
+		overflow-x: none !important;
 	}
 
 	table {
@@ -3324,6 +3412,10 @@ input, select, textarea {
 			padding: 5em 5em 3em 5em ;
 			max-width: 100%;
 			width: 75em !important;
+		}
+
+		.wrapper > .inner p {
+			padding: 1em;
 		}
 
 			@media screen and (max-width: 1680px) {
@@ -3907,10 +3999,10 @@ input, select, textarea {
 
 			/*look*/
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #153183,  #11b4c0);
-				background-image: -webkit-linear-gradient(to right, #153183,  #11b4c0);
-				background-image: -ms-linear-gradient(to right, #153183,  #11b4c0);
-				background-image: linear-gradient(to right, #153183, #11b4c0);
+				background-image: -moz-linear-gradient(to right, #74a6df,  #11b4c0);
+				background-image: -webkit-linear-gradient(to right, #74a6df,  #11b4c0);
+				background-image: -ms-linear-gradient(to right, #74a6df, #11b4c0);
+				background-image: linear-gradient(to right, #74a6df, #11b4c0);
 				/* background-image: -moz-linear-gradient(to right, #DAB692, #E8DFE0);
 				background-image: -webkit-linear-gradient(to right, #DAB692, #E8DFE0);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);

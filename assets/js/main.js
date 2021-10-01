@@ -18,7 +18,22 @@
 			small:    [ '481px',   '736px'  ],
 			xsmall:   [ null,      '480px'  ]
 		});
+		// extra info
 
+		const $slider = document.getElementById('slider');
+		const $toggle = document.getElementById('toggle');
+
+		$toggle.addEventListener('click', function() {
+    const isOpen = $slider.classList.contains('slide-in');
+
+    $slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
+
+		});
+
+			// document.addEventListener('click', () => {
+			// 	const isOpen = $slider.classList.contains('slide-in');
+			// 	$slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
+			// } )
 	// Hack: Enable IE flexbox workarounds.
 		if (browser.name == 'ie')
 			$body.addClass('is-ie');
