@@ -4065,23 +4065,35 @@ input, select, textarea {
 				flex-direction: column;
 				display: flex;
 				align-items: center;
-				padding-right: 6em;
+				padding-right: 2em;
+			  margin-left: 0px !important
 			}
 
+				.details{
+					padding-left: 0px !important
+				}
 			#slider{
+
 				position: absolute;
 				display: flex !important;
 				/* top: 200px !important; */
-				bottom: 3em;
-				right: -22em;
-				padding-right: 1em;
+				bottom: 0em;
+				right: -24em;
+				/* padding-right: 1em; */
 				flex-direction: column !important;
 				align-self: flex-end !important;
 				height: 50% !important;
 				transform: translateX(-100%);
 				-webkit-transform: translateX(-100%);
 				width: 80%;
+				padding: 0
 			}
+
+			.image-cont{
+				margin-bottom: 2em;
+			}
+
+
 
 
 
