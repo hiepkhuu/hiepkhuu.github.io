@@ -296,6 +296,10 @@ input, select, textarea {
 			padding-left: .2em !important;
 		}
 
+		.button.scrolly{
+			margin: 4em 2em;
+
+		}
 	}
 
 	html {
@@ -2078,6 +2082,7 @@ input, select, textarea {
 
 	.button.scrolly{
 		margin: 4em 8em;
+
 	}
 
 		input[type="submit"]:after,
