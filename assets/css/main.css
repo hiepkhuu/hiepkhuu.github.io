@@ -239,7 +239,7 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 500px) {
 
 		html, body {
 			min-width: 320px;
@@ -253,9 +253,14 @@ input, select, textarea {
 		.image.two,
 		.image.three {
 
-			width: 80% !important;
+			width: 90% !important;
 			height: auto;
 
+		}
+
+		.features {
+			display:grid !important;
+			grid-template-columns: 1fr 1fr !important;
 		}
 
 
@@ -1244,7 +1249,7 @@ input, select, textarea {
 			.image.two,
 			.image.three {
 
-				width: 80% !important;
+				width: 94% !important;
 
 
 			}
