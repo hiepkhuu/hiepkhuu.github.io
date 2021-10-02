@@ -247,7 +247,11 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 500px) {
+		#slider {
+			transform: translateX(-80%) !important;
+			-webkit-transform: translateX(-80%) !important;
 
+		}
 		html, body {
 			min-width: 320px;
 		}
