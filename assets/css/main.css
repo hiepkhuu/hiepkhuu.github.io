@@ -257,7 +257,22 @@ input, select, textarea {
 			height: auto;
 
 		}
+		.details h1{
+			font-size: 25px;
+		}
 
+		.details p {
+			font-size: 18px;
+		}
+		.my-info{
+			padding-right: 0px !important;
+
+
+		}
+
+		.image-div{
+			padding-right: 5em!important;
+		}
 		.features {
 			display:grid !important;
 			grid-template-columns: 1fr 1fr !important;
@@ -4069,9 +4084,10 @@ input, select, textarea {
 				display: flex;
 				flex-direction: column;
 				display: flex;
-				align-items: center;
+				/* align-items: center; */
 				padding-right: 2em;
-			  margin-left: 0px !important
+			  margin-left: 0px !important;
+				/* width: 25em; */
 			}
 
 				.details{
@@ -4086,11 +4102,11 @@ input, select, textarea {
 				right: -24em;
 				/* padding-right: 1em; */
 				flex-direction: column !important;
-				align-self: flex-end !important;
+				align-self: center !important;
 				height: 50% !important;
 				transform: translateX(-100%);
 				-webkit-transform: translateX(-100%);
-				width: 80%;
+				width: 90%;
 				padding: 0
 			}
 
@@ -4099,7 +4115,9 @@ input, select, textarea {
 			}
 
 
-
+			.prof-img{
+				margin-right: 2em !important;
+			}
 
 
 			#slider div{
