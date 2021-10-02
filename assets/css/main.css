@@ -258,6 +258,7 @@ input, select, textarea {
 
 		}
 
+
 	}
 
 	html {
@@ -4058,6 +4059,41 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+		@media screen and (max-width: 920px) {
+			.my-info{
+				display: flex;
+				flex-direction: column;
+				display: flex;
+				align-items: center;
+				padding-right: 6em;
+			}
+
+			#slider{
+				position: absolute;
+				display: flex !important;
+				/* top: 200px !important; */
+				bottom: 3em;
+				right: -22em;
+				padding-right: 1em;
+				flex-direction: column !important;
+				align-self: flex-end !important;
+				height: 50% !important;
+				transform: translateX(-100%);
+				-webkit-transform: translateX(-100%);
+				width: 80%;
+			}
+
+
+
+			#slider div{
+				width: 100%;
+			}
+
+
+			.details{
+				width: 90% !important;
+			}
+		}
 		@media screen and (max-width: 1280px) {
 
 			#sidebar {
