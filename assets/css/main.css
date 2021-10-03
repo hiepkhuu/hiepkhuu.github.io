@@ -18,11 +18,14 @@ body::-webkit-scrollbar-track {
   background: rgb(44, 117, 139);        /* color of the tracking area */
 }
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(228, 185, 46);    /* color of the scroll thumb */
+  /* background-color: rgb(228, 185, 46); */
+	background-color: #e5b8b2;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   /* border: 3px solid rgb(44, 117, 139); creates padding around scroll thumb */
 }
-
+.menu li{
+	color: white;
+}
 #slider {
 	display: flex;
 	flex-direction: row;
@@ -159,7 +162,8 @@ body::-webkit-scrollbar-thumb {
 } */
 
 .inner strong{
- color: rgb(252, 204, 49)
+ /* color: rgb(252, 204, 49); */
+ color: #ffb5a9
 }
 
 .features li{
