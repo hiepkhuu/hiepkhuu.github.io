@@ -51,8 +51,8 @@ color: #e5b8b2
 
 .flip-card {
 	padding-top: 1em;
-   /* background-color: transparent; */
-	background-color: #478b99;
+   background-color: transparent;
+	/* background-color: #478b99; */
   width: 100%;
   min-height: 75%;
   /* perspective: 1000px; */
@@ -82,12 +82,12 @@ color: #e5b8b2
 }
 
 .flip-card-front {
-  background-color: #478b99;;
- background-color: gray;
+  background-color: transparent;
+ /* background-color: gray; */
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: transparent;
   color: white;
   transform: rotateY(180deg);
 
