@@ -311,7 +311,6 @@ input, select, textarea {
 		}
 
 
-
 		.features {
 			display:grid !important;
 			grid-template-columns: 1fr 1fr 1fr!important;
@@ -2851,7 +2850,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 		object-fit: contain !important;
-		min-height: auto;
+		min-height: 40% !important;
 		width: 100% !important;
 
 	}
@@ -2859,7 +2858,6 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.25em;
 			display: block;
-
 
 
 		}
@@ -4164,6 +4162,8 @@ input, select, textarea {
 					padding-left: 0px !important
 				}
 
+
+
 		}
 		@media screen and (max-width: 1280px) {
 
@@ -4225,6 +4225,18 @@ input, select, textarea {
 							background-color: #b74e91;
 						}
 
+						.features {
+							display:grid !important;
+							grid-template-columns: 1fr 1fr 1fr 1fr!important;
+						}
+						.features li{
+							padding-right: .2em !important;
+							padding-left: .2em !important;
+						}
+						.features i{
+							padding-right: .2em !important;
+							padding-left: .2em !important;
+						}
 		}
 
 		@media screen and (max-width: 736px) {
