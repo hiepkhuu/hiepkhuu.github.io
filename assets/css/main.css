@@ -29,19 +29,32 @@ body::-webkit-scrollbar-thumb {
 .button{
 	margin-top: 1em;
 }
-.icon.brands{
+.icon.brands,
+.icon.solid{
 	font-size: 26px;
+	margin: .25em .5em;
 }
 
+
+.icon.brands:hover,
+.icon.solid:hover{
+color: #e5b8b2
+}
 .icon.solid.fa-envelope{
 	font-size: 28px;
 }
 
+
+.flip-card-container{
+	width: 100%;
+}
+
 .flip-card {
-  /* background-color: transparent; */
+	padding-top: 1em;
+   /* background-color: transparent; */
 	background-color: #478b99;
-  width: 83em;
-  height: 20em;
+  width: 100%;
+  min-height: 75%;
   /* perspective: 1000px; */
 	margin-left: 2em;
 }
@@ -50,7 +63,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   width: 100%;
   height: 100%;
-  text-align: center;
+  /* text-align: center; */
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -69,8 +82,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+  background-color: #478b99;;
+ background-color: gray;
 }
 
 .flip-card-back {
@@ -194,6 +207,7 @@ body::-webkit-scrollbar-thumb {
 	/* align-items: center; */
 	line-height: 1.5em
 
+
 }
 
 .prof-img{
@@ -312,11 +326,7 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 500px) {
-		#slider {
-			transform: translateX(-80%) !important;
-			-webkit-transform: translateX(-80%) !important;
 
-		}
 		html, body {
 			min-width: 320px;
 		}
@@ -351,7 +361,11 @@ input, select, textarea {
 
 		.image-div{
 			padding-right: 5em!important;
+
 		}
+
+
+
 		.features {
 			display:grid !important;
 			grid-template-columns: 1fr 1fr 1fr!important;
@@ -368,6 +382,10 @@ input, select, textarea {
 		.button.scrolly{
 			margin: 4em 1em;
 
+		}
+
+		.flip-card-container{
+			height: 30em !important;
 		}
 	}
 
@@ -4180,45 +4198,13 @@ input, select, textarea {
 			  margin-left: 0px !important;
 				/* width: 25em; */
 			}
-
+			.flip-card-container{
+				height: 25em;
+			}
 				.details{
 					padding-left: 0px !important
 				}
-			#slider{
 
-				position: absolute;
-				display: flex !important;
-				/* top: 200px !important; */
-				bottom: 0em;
-				right: -24em;
-				/* padding-right: 1em; */
-				flex-direction: column !important;
-				/* align-self: center !important; */
-				height: 50% !important;
-				transform: translateX(-100%);
-				-webkit-transform: translateX(-100%);
-				width: 77%;
-				padding: 0
-			}
-
-			.image-cont{
-				margin-bottom: 0em;
-			}
-
-
-			.prof-img{
-				margin-right: 2em !important;
-			}
-
-
-			#slider div{
-				width: 100%;
-			}
-
-
-			.details{
-				width: 90% !important;
-			}
 		}
 		@media screen and (max-width: 1280px) {
 
