@@ -96,8 +96,25 @@ color: #e5b8b2
 
 }
 
+.contact div{
+	display: flex;
+	width: 100%;
 
+}
+.solid.icon.fa-home.no-click:hover{
+color: white;
+cursor:auto
+}
 
+.contact p{
+	padding-top: .25em !important;
+	border-bottom: none !important;
+}
+
+.contact h4{
+	margin-top: 1em;
+	padding-left: .7em;
+}
 .inner span{
 	font-size: 16px;
 }
