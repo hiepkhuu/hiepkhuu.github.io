@@ -48,6 +48,7 @@ color: #e5b8b2
 .flip-card-container{
 	width: 100%;
 	padding: 0px;
+	height: 26em;
 }
 
 .flip-card {
@@ -313,15 +314,20 @@ input, select, textarea {
 		}
 
 		.flip-card-container{
-			height: 35em !important;
+			height: 30em !important;
+
 		}
+
 
 		.flip-card{
 			margin-left: 0px !important;
 		}
 
 
-
+	 .sad{
+		 position: absolute;
+		 bottom: 0em !important;
+	 }
 
 	}
 
@@ -2104,7 +2110,7 @@ input, select, textarea {
 	}
 
 	.button.scrolly{
-		margin: 4em 8em;
+		margin: 2em 8em 0em 8em;
 
 	}
 
