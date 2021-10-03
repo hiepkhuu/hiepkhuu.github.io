@@ -134,6 +134,7 @@ body::-webkit-scrollbar-thumb {
 
 .inner h4{
 	margin-bottom: 1em;
+	font-size: 20px;
 }
 .inner p{
 	font-size: 16px !important;
