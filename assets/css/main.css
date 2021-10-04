@@ -50,7 +50,7 @@ color: #e5b8b2
 .flip-card-container{
 	width: 100%;
 	padding: 0px;
-	height: 30em;
+	height: 30em !important;
 }
 
 .flip-card {
@@ -334,7 +334,7 @@ input, select, textarea {
 		}
 
 		.flip-card-container{
-			height: 38em !important;
+			height: 40em !important;
 
 		}
 		.flip-card-back p{
@@ -351,9 +351,7 @@ input, select, textarea {
 		 bottom: .0em !important;
 	 }
 
-	 .inner.first{
-		padding-bottom: 0px !important
-	}
+
 
 
 	}
@@ -3566,7 +3564,7 @@ input, select, textarea {
 			/* background-color:  #E8DFE0; */
 			/* background: #077B88; */
 				/* background: #FB9F8B; */
-				background-color:  #478b99
+				background-color:  #478b99;
 				/* background:  #d8d393 */
 
 		}
