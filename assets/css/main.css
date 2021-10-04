@@ -40,6 +40,8 @@ body::-webkit-scrollbar-thumb {
 .icon.solid:hover{
 color: #e5b8b2
 }
+
+
 .icon.solid.fa-envelope{
 	font-size: 28px;
 }
@@ -48,7 +50,7 @@ color: #e5b8b2
 .flip-card-container{
 	width: 100%;
 	padding: 0px;
-	height: 26em;
+	height: 30em;
 }
 
 .flip-card {
@@ -95,6 +97,7 @@ color: #e5b8b2
   transform: rotateY(180deg);
 
 }
+
 
 .contact div{
 	display: flex;
