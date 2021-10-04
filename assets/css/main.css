@@ -347,9 +347,13 @@ input, select, textarea {
 
 
 	 .sad{
-		 position: absolute;
+		 position: absolute !important;
 		 bottom: .0em !important;
 	 }
+
+	 .inner.first{
+		padding-bottom: 0px !important
+	}
 
 
 	}
