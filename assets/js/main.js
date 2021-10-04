@@ -20,6 +20,8 @@
 		});
 		// extra info
 
+		const flipCardBack = document.querySelector('flip-card-back')
+		const flipCardFront = document.querySelector('flip-card-front')
 		// const $slider = document.getElementById('slider');
 		// const $toggle = document.getElementById('toggle');
 
@@ -31,8 +33,10 @@
     // $slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
 		// $toggle.setAttribute('class', isOpen ? 'chevron-right' : 'chevron-left')
 
-
-		// $slider
+		// const flipCardInner = document.querySelector('flip-card-inner')
+		// flipCardFront.addEventListener('click', ()=> {
+		// 	flipCardBack.css('transform', 'rotateY(180deg)')
+		// })
 
 
 

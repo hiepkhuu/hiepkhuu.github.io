@@ -113,7 +113,7 @@ cursor:auto
 
 .contact h4{
 	margin-top: 1em;
-	padding-left: .7em;
+	padding-left: 1em;
 }
 .inner span{
 	font-size: 16px;
@@ -309,6 +309,7 @@ input, select, textarea {
 			padding-right: 5em!important;
 
 		}
+
 
 
 		.features {
@@ -2850,7 +2851,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 		object-fit: contain !important;
-		min-height: 40% !important;
+		min-height: auto;
 		width: 100% !important;
 
 	}
@@ -2858,6 +2859,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 0.25em;
 			display: block;
+
 
 
 		}
@@ -4162,8 +4164,6 @@ input, select, textarea {
 					padding-left: 0px !important
 				}
 
-
-
 		}
 		@media screen and (max-width: 1280px) {
 
@@ -4224,7 +4224,6 @@ input, select, textarea {
 							background-image: none;
 							background-color: #b74e91;
 						}
-
 						.features {
 							display:grid !important;
 							grid-template-columns: 1fr 1fr 1fr 1fr!important;
