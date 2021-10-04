@@ -338,7 +338,8 @@ input, select, textarea {
 
 		}
 		.flip-card-back p{
-			padding-bottom: 0px !important
+			padding-bottom: 0px !important;
+			padding-top: 0px !important
 		}
 
 		.flip-card{
