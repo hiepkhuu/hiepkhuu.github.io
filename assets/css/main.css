@@ -334,7 +334,7 @@ input, select, textarea {
 		}
 
 		.flip-card-container{
-			height: 32em !important;
+			height: 35em !important;
 
 		}
 
@@ -4161,7 +4161,7 @@ input, select, textarea {
 				/* width: 25em; */
 			}
 			.flip-card-container{
-				height: 25em;
+				height: 30em;
 			}
 				.details{
 					padding-left: 0px !important
