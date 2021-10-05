@@ -30,7 +30,8 @@ body::-webkit-scrollbar-thumb {
 	margin-top: 1em;
 }
 .icon.brands,
-.icon.solid{
+.icon.solid,
+.fas.fa-file{
 	font-size: 26px;
 	margin: .25em .5em;
 }
@@ -41,6 +42,10 @@ body::-webkit-scrollbar-thumb {
 color: #e5b8b2
 }
 
+.fas.fa-file{
+	margin: 0px;
+	margin-right: .5em
+}
 
 .icon.solid.fa-envelope{
 	font-size: 28px;
@@ -95,7 +100,7 @@ color: #e5b8b2
   background-color: transparent;
   color: white;
   transform: rotateY(180deg);
-
+	margin-top: -2em !important
 }
 
 
@@ -279,7 +284,9 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
-
+		.my-info{
+			height: 75em !important;
+		}
 		.spotlights > section > .image:before {
 			width: 100% !important;
 		}
@@ -328,10 +335,6 @@ input, select, textarea {
 			padding-left: .2em !important;
 		}
 
-		.button.scrolly{
-			margin: 4em 1em;
-
-		}
 
 		.flip-card-container{
 			height: 40em !important;
@@ -339,18 +342,19 @@ input, select, textarea {
 		}
 		.flip-card-back p{
 			padding-bottom: 0px !important;
-			padding-top: 0px !important
+			padding-top: 0px !important;
+
 		}
 
 		.flip-card{
 			margin-left: 0px !important;
 		}
 
-
+/*
 	 .sad{
 		 position: absolute !important;
 		 bottom: .0em !important;
-	 }
+	 } */
 
 
 
@@ -388,10 +392,11 @@ input, select, textarea {
 	body, input, select, textarea {
 		/* color: rgba(255, 255, 255, 0.55); */
 		color: white !important;
-		font-family: 'Consolas', sans-serif !important;
+		font-family: 'Roboto', sans-serif !important;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.5;
+		letter-spacing: 1.3px;
 	}
 
 		@media screen and (max-width: 1680px) {
