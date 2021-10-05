@@ -286,7 +286,7 @@ input, select, textarea {
 			min-width: 320px;
 		}
 		.my-info{
-			height: 130em !important;
+			height: 120em !important;
 			display: flex !important;
 							flex-direction: column !important;
 							align-items: center !important;
@@ -346,7 +346,7 @@ input, select, textarea {
 
 
 		.flip-card-container{
-			height: 40em !important;
+			height: 80em !important;
 
 		}
 		.flip-card-back p{
