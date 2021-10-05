@@ -156,6 +156,16 @@ cursor:auto
 	width: 35%;
 	margin-bottom: 2em;
 }
+
+
+.image.one,
+.image.two,
+.image.three {
+
+	width: 42% !important;
+	height: auto;
+
+}
 .my-info{
 	display: flex;
 	/* align-items: center; */
