@@ -285,7 +285,7 @@ input, select, textarea {
 			min-width: 320px;
 		}
 		.my-info{
-			height: 75em !important;
+			height: 80em !important;
 		}
 		.spotlights > section > .image:before {
 			width: 100% !important;
