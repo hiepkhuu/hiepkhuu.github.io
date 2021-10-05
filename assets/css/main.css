@@ -286,6 +286,13 @@ input, select, textarea {
 		}
 		.my-info{
 			height: 80em !important;
+			display: flex !important;
+							flex-direction: column !important;
+							align-items: center !important;
+
+							padding-bottom: 0px !important;
+							padding-top: 1em !important;
+						
 		}
 		.spotlights > section > .image:before {
 			width: 100% !important;
@@ -341,8 +348,8 @@ input, select, textarea {
 
 		}
 		.flip-card-back p{
-			padding-bottom: 0px !important;
-			padding-top: 0px !important;
+			padding: 0px !important;
+
 
 		}
 
