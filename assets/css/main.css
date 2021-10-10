@@ -4259,7 +4259,7 @@ input, select, textarea {
 						#sidebar nav a:after {
 							background-image: none;
 							/* background-color: #b74e91; */
-							background-color: #ffb5a9;
+							background-color: #ffb5a9 !important;
 						}
 						.features {
 							display:grid !important;
