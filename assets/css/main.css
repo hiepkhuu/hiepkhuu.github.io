@@ -202,7 +202,8 @@ cursor:auto
 
 .inner strong{
  /* color: rgb(252, 204, 49); */
- color: #ffb5a9
+ color: #ffb5a9;
+ font-family: consolas
 }
 
 .features li{
@@ -4257,7 +4258,8 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							/* background-color: #b74e91; */
+							background-color: #ffb5a9;
 						}
 						.features {
 							display:grid !important;
