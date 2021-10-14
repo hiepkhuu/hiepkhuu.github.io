@@ -94,13 +94,16 @@ color: #e5b8b2
 .flip-card-front {
   background-color: transparent;
  /* background-color: gray; */
+ margin-top: 1em !important;
 }
 
 .flip-card-back {
   background-color: transparent;
   color: white;
   transform: rotateY(180deg);
-	margin-top: -2em !important
+	margin-top: 1em !important;
+	padding-left: 3em !important;
+	padding-right: 3em !important
 }
 
 
