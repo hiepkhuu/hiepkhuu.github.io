@@ -95,6 +95,8 @@ color: #e5b8b2
   background-color: transparent;
  /* background-color: gray; */
  margin-top: 1em !important;
+	padding-left: 3em !important;
+	padding-right: 3em !important
 }
 
 .flip-card-back {
