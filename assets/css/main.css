@@ -241,6 +241,10 @@ cursor:auto
 	letter-spacing: 0.7px
 }
 
+.split.style1{
+	margin-top: 2em !important;
+}
+
 .sub-msg{
 	margin-top: 2em
 }
