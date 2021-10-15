@@ -235,7 +235,7 @@ cursor:auto
 .inner h4{
 	margin: 0px;
 	color: #e7b7b4;
-	color: #e9ddda;
+	color: #fff3f1;
 
 	/* color: #2d3453; */
 	letter-spacing: 0.7px
@@ -245,7 +245,7 @@ cursor:auto
 	margin-top: 2em
 }
 .inner h3{
-	color: #bdbbba;;
+	color: #cacaca;;
 	font-size: 1em;
 	font-weight: 600;
 	margin: 0px;
@@ -253,7 +253,7 @@ cursor:auto
 }
 .inner span{
 	font-size: 1.5em;
-	color: #e9ddda;
+	color: #ebe0dd;
 	/* color: #2d3d53; */
 
 }
