@@ -114,8 +114,8 @@ color: #e5b8b2
   background-color: transparent;
  /* background-color: gray; */
  margin-top: 1em !important;
-	padding-left: 3em !important;
-	padding-right: 3em !important
+	padding-left: 1em !important;
+	padding-right: 1em !important
 }
 
 .flip-card-back {
@@ -226,9 +226,36 @@ cursor:auto
 
 .inner strong{
  /* color: rgb(252, 204, 49); */
- color: #ffb5a9;
+ /* color: #2d3d53; */
+ color: #e7b7b4;
+ /* color: #e9ddda; */
  /* font-family: consolas; */
- font-size: 1.5em
+ font-size: 1.7em
+}
+.inner h4{
+	margin: 0px;
+	color: #e7b7b4;
+	color: #e9ddda;
+
+	/* color: #2d3453; */
+	letter-spacing: 0.7px
+}
+
+.sub-msg{
+	margin-top: 2em
+}
+.inner h3{
+	color: #bdbbba;;
+	font-size: 1em;
+	font-weight: 600;
+	margin: 0px;
+
+}
+.inner span{
+	font-size: 1.5em;
+	color: #e9ddda;
+	/* color: #2d3d53; */
+
 }
 
 .features li{
@@ -3618,7 +3645,7 @@ input, select, textarea {
 			/* background-color:  #E8DFE0; */
 			/* background: #077B88; */
 				/* background: #FB9F8B; */
-				background-color:  #478b99;
+				background-color:  #378392;
 				/* background:  #d8d393 */
 
 		}
@@ -3627,7 +3654,7 @@ input, select, textarea {
 			/* background-color: #493382; */
 			/* background-color: #DAB692 */
 			/* background-color: #c66668 */
-			background-color: #e5b8b2
+			background-color: #c5a09b
 
 		}
 
