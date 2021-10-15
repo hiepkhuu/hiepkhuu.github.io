@@ -368,7 +368,9 @@ input, select, textarea {
 		.spotlights > section > .image:before {
 			width: 100% !important;
 		}
-
+		.inner h1{
+			font-size: 30px;
+		}
 		.image.one,
 		.image.two,
 		.image.three {
