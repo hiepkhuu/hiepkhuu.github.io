@@ -23,6 +23,25 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;       /* roundness of the scroll thumb */
   /* border: 3px solid rgb(44, 117, 139); creates padding around scroll thumb */
 }
+
+.console-container {
+
+  font-family:Consolas;
+  font-size:4em;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+
+
 .menu li{
 	color: rgb(238, 238, 238);
 }
