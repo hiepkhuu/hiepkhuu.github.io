@@ -404,7 +404,7 @@ input, select, textarea {
 
 		.features {
 			display:grid !important;
-			grid-template-columns: 1fr 1fr 1fr!important;
+			grid-template-columns: 1fr 1fr 1fr !important;
 		}
 		.features li{
 			padding-right: .2em !important;
@@ -4323,7 +4323,7 @@ input, select, textarea {
 						}
 						.features {
 							display:grid !important;
-							grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr!important;
+							grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 						}
 						.features li{
 							padding-right: .2em !important;
