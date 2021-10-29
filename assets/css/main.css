@@ -201,7 +201,7 @@ cursor:auto
 
 .prof-img{
 	background-image: url('/images/KakaoTalk_20211028_225100301.jpg');
-	background-size: cover;
+	background-size: contain;
 	width: 22em;
 	height: 22em;
 	background-color: white;
